@@ -16,4 +16,7 @@ I mainly followed these things for 3 month learning phase at appscode
 - https://github.com/Neaj-Morshad-101/Learning-Resource-and-Notes/blob/main/docs/Kubernetes%20Notes.docx
 
 
-Learned: Linux, Git, Go, API Design, Docker, Kubernetes, Makefile, Helm, CRD, CRD-Controller, Prometheus etc.
+Learned: 
+Linux, Git, Go, API Design, Docker, Kubernetes, Makefile, 
+Helm, CRD, CRD-Controller, Prometheus, TLS
+
