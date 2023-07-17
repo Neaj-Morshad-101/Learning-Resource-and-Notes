@@ -1,4 +1,17 @@
 # Essential Git Commands
+stash, git stash pop, git re-base, git merge
+pull, push -f, checkout, branch, rebase. squash(gitk), log, status, learn these stuff.
+
+### Amend and Force Push
+git add .
+git commit -s -m "Commit Message" // -s for sign 
+git push
+git push --set-upstream origin <newbranch>   // if your commit has new branch
+git commit --amend -s -m "Commit Message" // add this commit to prev-commit
+git push -u -f //force push
+
+
+
 
 ## Initializing a Repository
 - `git init`: Initializes a new Git repository in the current directory.
