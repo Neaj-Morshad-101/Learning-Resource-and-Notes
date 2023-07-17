@@ -16,7 +16,7 @@ I mainly followed these things for 3 month learning phase at appscode
 
 Learned: 
 Linux, Git, Go, API Design, Docker, 
-Kubernetes, Makefile,  CRD, K8s-Controller,
-Helm, Prometheus, TLS, Makefile
+Kubernetes, Makefile,  CRD, K8s-Controller, 
+Helm, Prometheus, TLS, Makefile, 
 Redis
 
