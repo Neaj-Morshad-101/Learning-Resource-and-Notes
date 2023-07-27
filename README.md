@@ -13,11 +13,9 @@ I mainly followed these things for 3 month learning phase at appscode
 - https://github.com/sysdevbd/sysdevbd.github.io
 - https://github.com/Neaj-Morshad-101/Learning-Resource-and-Notes/blob/main/docs/Kubernetes%20Notes.docx
 
-Learned: 
-Linux, Git, Go, API Design, Docker, 
-Kubernetes, Makefile,  CRD, K8s-Controller, 
-Helm, Prometheus, TLS, Makefile, 
-Redis, 
+Learned:  
+First Three Month: Linux, Git, Go, API Design, Docker, Kubernetes, Makefile,  CRD, K8s-Controller, Helm, Prometheus, TLS, Makefile.  
+Next Three Month: Redis, Ginkgo & Gomega testing framework/library, Github Actions/Runners, .....  
 
 
 

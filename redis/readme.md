@@ -5,3 +5,5 @@
 
 
  https://www.youtube.com/watch?v=J7QI4EzuOVY&t
+
+https://developer.hashicorp.com/vault/docs/secrets/databases/redis
