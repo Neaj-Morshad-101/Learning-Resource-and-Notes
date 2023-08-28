@@ -2,6 +2,20 @@
 stash, git stash pop, git re-base, git merge
 pull, push -f, checkout, branch, rebase. squash(gitk), log, status, learn these stuff.
 
+
+### Git squash / marge all commit into one commit: 
+` gitk `
+select the last commit from where you started committing. (Not your commit, prev of your first commit) 
+right click -> select reset -> merge option -> ok. 
+then your commit will be removed
+To add your changes. commit and push again 
+git add . / git commit / git push -f :
+
+### Git rebase 
+` git rebase origin/main ` 
+then if conflict happens, then goland -> Git -> Rebase > Merge [Left is your current brannch, Middle is what you want, right is master]
+
+
 ### Amend and Force Push
 git add .
 git commit -s -m "Commit Message" // -s for sign 
