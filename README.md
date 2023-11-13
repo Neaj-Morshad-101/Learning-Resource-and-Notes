@@ -15,7 +15,7 @@ I mainly followed these things for 3 month learning phase at appscode
 
 Learned:  
 First Three Month: Linux, Git, Go, API Design, Docker, Kubernetes, Makefile,  CRD, K8s-Controller, Helm, Prometheus, TLS, Makefile.  
-Next Three Month: Redis, Ginkgo & Gomega testing framework/library, Github Actions/Runners, .....  
+Next Three Month: Redis, Ginkgo & Gomega testing framework/library, GitHub Actions/Runners, Redis backup-restore, MS SQL server   
 
 
 
