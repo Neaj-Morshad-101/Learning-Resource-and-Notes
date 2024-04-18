@@ -1,5 +1,22 @@
+# Remove Large files from git
+To see all the large files pushed into the git repo
+```
+git rev-list --objects --all |
+  git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+  sed -n 's/^blob //p' |
+  sort --numeric-sort --key=2 |
+  cut -c 1-12,41- |
+  $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
+```
+
+
+Run command like this to remove that file from every commit in the git history
+
+```
+git filter-branch -f --prune-empty --tag-name-filter cat --index-filter "git rm -rf --cached --ignore-unmatch files_to_delete" -- --all
+```
 # Essential Git Commands
-stash, git stash pop, git re-base, git merge
+stash, git stash pop, git rebase, git merge
 pull, push -f, checkout, branch, rebase. squash(gitk), log, status, learn these stuff.
 
 
@@ -12,7 +29,10 @@ To add your changes. commit and push again
 git add . / git commit / git push -f :
 
 ### Git rebase 
-` git rebase origin/main ` 
+`git checkout master`
+`git pull`
+`git checkout feature-branch`
+`git rebase master` or ` git rebase origin/main ` 
 then if conflict happens, then goland -> Git -> Rebase > Merge [Left is your current brannch, Middle is what you want, right is master]
 
 
