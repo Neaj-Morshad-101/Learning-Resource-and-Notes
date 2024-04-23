@@ -1,4 +1,6 @@
 # Remove Large files from git
+https://www.educative.io/answers/how-to-remove-sensitive-files-and-their-commits-from-git-history
+
 To see all the large files pushed into the git repo
 ```
 git rev-list --objects --all |
@@ -13,8 +15,11 @@ git rev-list --objects --all |
 Run command like this to remove that file from every commit in the git history
 
 ```
-git filter-branch -f --prune-empty --tag-name-filter cat --index-filter "git rm -rf --cached --ignore-unmatch files_to_delete" -- --all
+git filter-branch --force --index-filter "git rm -rf --cached --ignore-unmatch PATH-TO-YOUR-FILE" --prune-empty --tag-name-filter cat -- --all
 ```
+git push origin --force --all
+
+
 # Essential Git Commands
 stash, git stash pop, git rebase, git merge
 pull, push -f, checkout, branch, rebase. squash(gitk), log, status, learn these stuff.
